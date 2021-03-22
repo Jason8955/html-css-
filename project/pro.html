@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Jason Jolly Portfolio</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+       $(document).ready(function(){    
+            $("img").click(function(){    
+                  $("img").animate({height: "600px", width: "725px"});
+                    $("img").off();
+           });
+       });
+        
+ </script>
+		
+  </head>
+	<body>		
+
+		<header>
+			<div class="innertube">
+                <h1>Jason Jolly</h1>
+                <h2>Full-Stack Developer</h2>
+			</div>
+		</header>
+		
+		<div id="wrapper">
+		
+			<main>
+				<div id="content">
+					<div class="innertube">
+						<h1>Portfolio</h1>
+						<div class="row">
+                            <div class="col-md-6 portfolio-item">
+                                <h3>
+                                    <a href="#">Portfolio page(HTML/CSS)</a>
+                                </h3>
+                                <p>A portfolio recreated from a picture only using html and css.</p>
+                               
+                                <img src="port.png" alt="portfolio">
+                          </div>
+                            <div class="col-md-6 portfolio-item">
+                                <h3>
+                                    <a href="#">About Python(HTML/CSS)</a>
+                                </h3>
+                                <p>A simple webpage about the basics of Python.</p>
+                                <img src="python.png" alt="portfolio2">
+                         </div>
+                            <div class="col-md-6 portfolio-item">
+                                
+                                 <h3>
+                                    <a href="#">FakeBlog</a>
+                                </h3>
+                                <p>A simple blog about local foods made only using HTML</p>
+                                <img src="blog.png" alt="portfolio3">
+                         </div>
+                        </div>
+					</div>
+				</div>
+            </main>
+    <nav id="nav">
+				<div class="innertube">
+					<h3>Navigation</h3>
+					<ul>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Game Projects</a></li>
+						<li><a href="#">Helpful Links</a></li>
+						<li><a href="#">Contact Me</a></li>
+						<li><a href="request.html">Request Project</a></li>
+                    </ul>
+                    <P><p>**CLICK on ANY picture to enlarge them all.</p></P>
+				</div>
+			</nav>
+		
+		</div>
+        <footer>
+			<div class="innertube">
+				<p>	&#169; Jason Jolly Productions ~ 2020</p>
+			</div>
+		</footer>
+	
+	</body>
+</html>
